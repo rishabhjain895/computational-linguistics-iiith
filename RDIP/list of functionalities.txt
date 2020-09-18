@@ -1,0 +1,6 @@
+1. drop down for language
+2. buttons for the texts words.
+3. Displaying the formed sentance.
+4. button for reformation and checking the formed sentance.
+5. displaying the sentence was correct or incoorect
+6. showing all the possible correct answers.

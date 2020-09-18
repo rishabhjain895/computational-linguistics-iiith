@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="design.css">
+
+<title> Experiment</title>
+
+</head>
+
+<h2 > Experiment</h2>
+<body>
+    <div class="heading">
+    <select  id="default"  onchange="mainEntry()">
+        <option value="default" >---select language---</option>
+        <option value="English" id="English">English</option>
+        <option value="Hindi" id="Hindi">Hindi</option>
+    </select>
+    </div>
+
+
+   <p id="p1"></p><br/><br/>
+   <p id="p2"></p>
+   <br/><br/>
+   <!--display of lines-->
+   <p id="formedSen1" style="display: inline;"></p>
+   <p id="formedSen2" style="display: inline;"></p><br/><br/>
+    <p id="dynamicString"></p>
+    <button id="test" style="visibility: hidden;" onclick="getCorrectSentence()">C sentence</button>
+
+  </body>
+  <script src="main.js"></script>
+  </html>

@@ -1,0 +1,58 @@
+.heading
+{
+    text-align: center;
+    padding: 10px;
+}
+body{
+    font-family: "Lucida Grande","Lucida Sans Unicode", "Lucida Sans", Verdana,Arial,sans-serif;
+    align-items: center;
+    text-align: center;
+    margin:20 auto;
+
+font-size: 13px;
+line-height: 1.22;
+}
+/* for the top of the page*/
+#top
+{
+    padding: 10px;
+    font-size: 25px;
+}
+#p1 ,#formedSen1
+{
+    color: darkblue;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+
+
+}
+#p2  ,#formedSen2
+{
+    color: blue;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+
+}
+button{
+    align-items: center;
+    text-align: center;
+    margin:10 auto;
+}
+#h2
+{
+    text-align:left;
+}
+#wrong
+{
+    color:red;
+}
+
+#right
+{
+    color: green;
+}
