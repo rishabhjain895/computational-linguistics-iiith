@@ -1,4 +1,5 @@
 #Heading {
+	
 	font-family: "Lucida Grande","Lucida Sans Unicode", "Lucida Sans", Verdana,Arial,sans-serif;
 	font-size: 30px;
 }
@@ -28,11 +29,13 @@ div {
 }
 
 #createtable {
+	
 	line-height: 1%;
 	border-spacing: 0px;
 }
 
 th,td {
+	
 	border-style: solid;
   	border-color: hsl(0, 0%, 73%);
     border-spacing: 1px;
