@@ -76,9 +76,9 @@ function getpos() {
 
 }*/
 
-var language = "";
-var sentence = "";
-var wrong = 0;
+ var language = "";
+ var sentence = "";
+ var wrong = 0;
 
 function sel() {
 	language = document.getElementById('language').options[document.getElementById('language').selectedIndex].text;
@@ -151,7 +151,7 @@ function table() {
 	columns(table);
 }
 
-function columns(table) {
+/*function columns(table) {
 	sentence = sentence.substr(0,sentence.length-1);
 	var arr = sentence.split(/[\s!]+/);
 	var j = 0;
