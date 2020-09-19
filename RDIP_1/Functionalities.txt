@@ -1,0 +1,9 @@
+
+select the corpus button contains three corpus(corpus 1, corpus 2, corpus 3)
+Submit  b to check if  entered tokens are correct or not(both need to be correct)
+Button Right Answer that says "Continue" with hiding the submit button.
+Again submit bottin to check in entered types are correct or not.
+add the snowball stemmer into javascript code
+Tokens need count of all words
+Types need count of unique words.
+New type need count of nunique words using stemming through snamball stemmer.
