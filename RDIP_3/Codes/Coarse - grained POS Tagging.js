@@ -202,10 +202,10 @@ function columns(table) {
         cell.appendChild(document.createTextNode(""));
 
 	}
-	var button = document.createElement('BUTTON');
-	var text = document.createTextNode("Submit");
+	var  button = document.createElement('BUTTON');
+	var  text = document.createTextNode("Submit"); 
 	button.appendChild(text);
-	submitdiv.appendChild(button);	/* Submit button added */
+	submitdiv.appendChild(button);	  /* Submit button added */
 	button.addEventListener("click", check);
 }
 
