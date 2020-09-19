@@ -325,7 +325,7 @@ function columns(table) {
 
 }
 
-/*function getanswer() {  /* Functionality of the "Get Answer" button */
+function getanswer() {  /* Functionality of the "Get Answer" button */
 	if(wrong == 1){
 		document.getElementById("getansdiv").innerHTML = "";
         var button = document.createElement('BUTTON');
@@ -395,7 +395,7 @@ function columns(table) {
     }
 }
 
-function hideanswer() {
+/*function hideanswer() {
 	var tablerows = document.getElementById("createtable").rows;
     for(var i=1;i<tablerows.length;i++){
         var col = tablerows[i].cells;
